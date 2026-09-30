@@ -20,7 +20,7 @@ public class Fibonacci {
             a = b;
             b = proximo;
             i++;
-        } while (i < n)
+        } while (i < n);
 
         ler.close();
     }
