@@ -13,11 +13,14 @@ public class Potencia {
         int resultado = 1;
         int i = 0;
 
-        do {
-            resultado = resultado * baseNum;
-            i++;
-        } while (i < expoente);
-
+        if (expoente == 0) {
+            resultado = 1;
+        } else {
+            do {
+                resultado = resultado * baseNum;
+                i++;
+            } while (i < expoente);
+        }
         System.out.println("Resultado: " + resultado);
 
         ler.close();
