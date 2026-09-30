@@ -1,3 +1,5 @@
+package prjWhileLista02;
+
 import java.util.Scanner;
 
 public class Fibonacci {
@@ -18,9 +20,8 @@ public class Fibonacci {
             a = b;
             b = proximo;
             i++;
-            System.out.println("\n Deseja continuar com o enzo? 1-Sim / 2-Não");
-        }while (i < n);
-    
+        } while (i < n)
+
         ler.close();
     }
 }
